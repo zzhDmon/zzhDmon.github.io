@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on Red</title>
+    <link>https://zzhdmon.github.io/categories/note/</link>
+    <description>Recent content in Note on Red</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zzhdmon.github.io/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客随笔</title>
+      <link>https://zzhdmon.github.io/post/essay/blog-essay/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zzhdmon.github.io/post/essay/blog-essay/</guid>
+      <description>Hellow Hugo Hugo构建的个人博客</description>
+    </item>
+    
+  </channel>
+</rss>
