@@ -10,6 +10,20 @@
   </url>
   
   <url>
+    <loc>https://zzhdmon.github.io/post/h5/mobile/</loc>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzhdmon.github.io/post/mobile/</loc>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://zzhdmon.github.io/post/essay/blog-essay/</loc>
     <lastmod>2017-12-11T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,8 +37,36 @@
   </url>
   
   <url>
+    <loc>https://zzhdmon.github.io/tags/css/</loc>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzhdmon.github.io/categories/css/</loc>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://zzhdmon.github.io/categories/index/</loc>
     <lastmod>2017-12-11T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzhdmon.github.io/tags/mobile/</loc>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzhdmon.github.io/categories/mobile/</loc>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -59,7 +101,7 @@
   
   <url>
     <loc>https://zzhdmon.github.io/post/</loc>
-    <lastmod>2017-12-11T21:41:52+08:00</lastmod>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -73,7 +115,7 @@
   
   <url>
     <loc>https://zzhdmon.github.io/tags/</loc>
-    <lastmod>2017-12-11T21:41:52+08:00</lastmod>
+    <lastmod>2017-12-12T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
