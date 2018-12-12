@@ -17,16 +17,33 @@
       <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://zzhdmon.github.io/post/h5/mobile/</guid>
-      <description>移动端样式采坑记</description>
-    </item>
-    
-    <item>
-      <title>移动端样式</title>
-      <link>https://zzhdmon.github.io/post/mobile/</link>
-      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zzhdmon.github.io/post/mobile/</guid>
-      <description>移动端样式采坑记</description>
+      <description>&lt;h2 id=&#34;移动端样式1px边框实现&#34;&gt;移动端样式1px边框实现&lt;/h2&gt;
+
+&lt;h4 id=&#34;1-伪类实现&#34;&gt;1.伪类实现&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.borderline{
+    width: 100%;
+    height: 0;
+    position: relative;
+    border:none;
+}
+.borderline:after{
+    content: &#39;&#39;;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    /* background: rgb(230,230,230); */
+    background: rgb(224,224,224);
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

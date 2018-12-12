@@ -307,45 +307,36 @@
   <div class="post-content">
     
     <div class="post-summary">
-      移动端样式采坑记
+      <h2 id="移动端样式1px边框实现">移动端样式1px边框实现</h2>
+
+<h4 id="1-伪类实现">1.伪类实现</h4>
+
+<pre><code class="language-css">.borderline{
+    width: 100%;
+    height: 0;
+    position: relative;
+    border:none;
+}
+.borderline:after{
+    content: '';
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    /* background: rgb(230,230,230); */
+    background: rgb(224,224,224);
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+}
+</code></pre>
+
+<p></p>
     </div>
     <div class="read-more">
       <a href="/post/h5/mobile/" class="read-more-link">Read more</a>
-    </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/mobile/">移动端样式</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2018-12-12" class="post-time">
-        2018-12-12
-      </time>
-      <div class="post-category">
-          <a href="https://zzhdmon.github.io/categories/css/"> Css </a>
-          <a href="https://zzhdmon.github.io/categories/mobile/"> Mobile </a>
-          
-        </div>
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      移动端样式采坑记
-    </div>
-    <div class="read-more">
-      <a href="/post/mobile/" class="read-more-link">Read more</a>
     </div>
     
   </div>
