@@ -21,26 +21,26 @@
 
 &lt;h4 id=&#34;1-伪类实现&#34;&gt;1.伪类实现&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.borderline{
-    width: 100%;
-    height: 0;
-    position: relative;
-    border:none;
-}
-.borderline:after{
-    content: &#39;&#39;;
-    position: absolute;
-    z-index: 999;
-    left: 0;
-    /* background: rgb(230,230,230); */
-    background: rgb(224,224,224);
-    width: 100%;
-    height: 1px;
-    -webkit-transform: scaleY(0.5);
-            transform: scaleY(0.5);
-    -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-}
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;    .borderline{
+        width: 100%;
+        height: 0;
+        position: relative;
+        border:none;
+    }
+    .borderline:after{
+        content: &#39;&#39;;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+        /* background: rgb(230,230,230); */
+        background: rgb(224,224,224);
+        width: 100%;
+        height: 1px;
+        -webkit-transform: scaleY(0.5);
+                transform: scaleY(0.5);
+        -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+    }
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

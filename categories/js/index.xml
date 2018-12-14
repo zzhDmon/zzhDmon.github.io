@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js on Red</title>
+    <link>https://zzhdmon.github.io/categories/js/</link>
+    <description>Recent content in Js on Red</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zzhdmon.github.io/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ionic1之死亡白屏调试</title>
+      <link>https://zzhdmon.github.io/post/ionic/mobile/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zzhdmon.github.io/post/ionic/mobile/</guid>
+      <description>&lt;h2 id=&#34;center-问题复现-center&#34;&gt;&lt;center&gt;问题复现&lt;/center&gt;&lt;/h2&gt;
+
+&lt;p&gt;ionic安卓端设置platform为ios后，在大部分二级页面，在左侧屏幕侧滑的时候经常会出现白屏的情况。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

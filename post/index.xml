@@ -21,26 +21,26 @@
 
 &lt;h4 id=&#34;1-伪类实现&#34;&gt;1.伪类实现&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.borderline{
-    width: 100%;
-    height: 0;
-    position: relative;
-    border:none;
-}
-.borderline:after{
-    content: &#39;&#39;;
-    position: absolute;
-    z-index: 999;
-    left: 0;
-    /* background: rgb(230,230,230); */
-    background: rgb(224,224,224);
-    width: 100%;
-    height: 1px;
-    -webkit-transform: scaleY(0.5);
-            transform: scaleY(0.5);
-    -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-}
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;    .borderline{
+        width: 100%;
+        height: 0;
+        position: relative;
+        border:none;
+    }
+    .borderline:after{
+        content: &#39;&#39;;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+        /* background: rgb(230,230,230); */
+        background: rgb(224,224,224);
+        width: 100%;
+        height: 1px;
+        -webkit-transform: scaleY(0.5);
+                transform: scaleY(0.5);
+        -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+    }
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -53,6 +53,18 @@
       
       <guid>https://zzhdmon.github.io/post/essay/blog-essay/</guid>
       <description>Hellow Hugo Hugo构建的个人博客</description>
+    </item>
+    
+    <item>
+      <title>ionic1之死亡白屏调试</title>
+      <link>https://zzhdmon.github.io/post/ionic/mobile/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zzhdmon.github.io/post/ionic/mobile/</guid>
+      <description>&lt;h2 id=&#34;center-问题复现-center&#34;&gt;&lt;center&gt;问题复现&lt;/center&gt;&lt;/h2&gt;
+
+&lt;p&gt;ionic安卓端设置platform为ios后，在大部分二级页面，在左侧屏幕侧滑的时候经常会出现白屏的情况。
+&lt;/p&gt;</description>
     </item>
     
   </channel>
